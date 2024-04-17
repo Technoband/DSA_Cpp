@@ -17,12 +17,12 @@ int main()
     int start = n - row +1;
     while (col <= start)
     {
-        cout<< "* ";
+        cout<< row ;
         col +=1;
     }
     cout << endl;
     row +=1;
     
  }
- return 0;
+return 0;
 }
